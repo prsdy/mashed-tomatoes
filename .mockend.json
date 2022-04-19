@@ -6,6 +6,9 @@
     "thumbnail": {
       "regexp": "https://i\\.pravatar\\.cc/500?u=[0-9]{5}"
     },
+    "description": {
+      "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+    },
     "email": {
       "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     },
