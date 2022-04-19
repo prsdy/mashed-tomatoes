@@ -1,5 +1,5 @@
 {
-  "User": {
+  "Course": {
     "name": {
       "string": {}
     },
@@ -18,9 +18,9 @@
     "color": {
       "regexp": "#[0-9A-F]{6}"
     },
-    "age": {
+    "completion": {
       "int": {
-        "min": 21,
+        "min": 0,
         "max": 100
       }
     },
