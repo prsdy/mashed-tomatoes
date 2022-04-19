@@ -4,7 +4,7 @@
       "string": {}
     },
     "thumbnail": {
-      "regexp": "https://i\\.pravatar\\.cc/500?u=[0-9]{5}"
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
     },
     "description": {
       "loremParagraphs": { "minLength": 200, "maxLength": 500 }
@@ -23,6 +23,7 @@
     },
     "isPublic": {
       "boolean": {}
-    }
+    },
+    "thisIncludes":
   }
 }
