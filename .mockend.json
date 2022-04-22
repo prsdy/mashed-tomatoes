@@ -29,7 +29,7 @@
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
-    }
+    },
     "likes":{ 
       "int": {
         "min": 0,
