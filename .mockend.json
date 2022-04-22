@@ -26,11 +26,18 @@
     }
   },
   "Post": {
-      "title": "string",
-      "views": "int",
-      "published": "boolean",
-      "createdAt": "date",
-      "comments": "Comment[]"
+      "title": { 
+        "string":{}
+      },
+      "views": {
+        "int" : {
+            "min": 25,
+            "max": 11120
+          }
+       },
+      "published": {"boolean" : {}},
+      "createdAt": {"date": {}},
+      "comments": {"Comment[]": []}
     },
   "Comment": {
       "body": "string",
