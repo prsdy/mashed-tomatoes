@@ -38,6 +38,9 @@
         "min": 0,
         "max": 100
       } 
+    },
+    "description": {
+      "loremParagraphs": { "minLength": 200, "maxLength": 500 }
     }
   },
   "Comment": {
