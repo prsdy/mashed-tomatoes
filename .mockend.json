@@ -43,7 +43,7 @@
       "belongsTo": "Post"
     },
     "user": {
-      "hasMany": "User"
+      "User": {}
     }
   },
   "User":{
