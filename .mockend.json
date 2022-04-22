@@ -30,12 +30,34 @@
     "comments": {
       "hasMany": "Comment"
     }
+    "likes":{ 
+      "int": {
+        "min": 0,
+        "max": 100
+      } 
+    },
   },
   "Comment": {
-    "body": { "string": {} },
+    "body": { "loremWords": { "minLength": 5, "maxLength": 20 } },
     "post": {
       "belongsTo": "Post"
+    },
+    "user": {
+      "belongsTo": "User"
     }
+  },
+  "User":{
+    "profile": {
+        "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+     },
+    "name":{ "regexp": "[A-Z][a-z]{5,10}" },
+    "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
+     "comments": {
+      "hasMany": "Post"
+    }
+    
   }
+  
+  
   
 }
