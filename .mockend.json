@@ -48,9 +48,7 @@
     "post": {
       "belongsTo": "Post"
     },
-    "user": {
-      "belongsTo": "User"
-    }
+    "user_name":  { "string": {} }
   },
   "User":{
     "profile": {
