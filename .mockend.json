@@ -30,6 +30,9 @@
     "userComments": {
       "hasMany": "Comment"
     },
+    "name": {
+      "string": {}
+    },
     "likes":{ 
       "int": {
         "min": 0,
