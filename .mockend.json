@@ -37,11 +37,10 @@
        },
       "published": {"boolean" : {}},
       "createdAt": {"date": {}},
-      "comments": {"Comment[]": []}
+      "comments": {"Comment": []}
     },
   "Comment": {
-      "body": "string",
-      "post": "Post"
-    }
+      "body": {"string":{}}
+  }
   
 }
