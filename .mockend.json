@@ -26,21 +26,16 @@
     }
   },
   "Post": {
-      "title": { 
-        "string":{}
-      },
-      "views": {
-        "int" : {
-            "min": 25,
-            "max": 11120
-          }
-       },
-      "published": {"boolean" : {}},
-      "createdAt": {"date": {}},
-      "comments": {"Comment": []}
-    },
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
   "Comment": {
-      "body": {"string":{}}
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
   
 }
