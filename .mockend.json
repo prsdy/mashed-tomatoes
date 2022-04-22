@@ -41,7 +41,10 @@
     },
     "description": {
       "loremParagraphs": { "minLength": 200, "maxLength": 500 }
-    }
+    },
+    "profile": {
+        "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+     }
   },
   "Comment": {
     "body": { "loremWords": { "minLength": 5, "maxLength": 20 } },
