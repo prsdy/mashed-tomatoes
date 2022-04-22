@@ -32,9 +32,9 @@
       "createdAt": "date",
       "comments": "Comment[]"
     },
-    "Comment": {
+  "Comment": {
       "body": "string",
       "post": "Post"
     }
-  }
+  
 }
