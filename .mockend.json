@@ -27,7 +27,7 @@
   },
   "Post": {
     "title": { "string": {} },
-    "comments": {
+    "userComments": {
       "hasMany": "Comment"
     },
     "likes":{ 
